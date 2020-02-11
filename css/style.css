@@ -1,0 +1,19 @@
+/* color schemes to be usef for the site */
+
+/* #142850
+#27496d
+#0c7b93
+#00a8cc */
+.title{
+    color: #142850;
+}
+.subtitle{
+    color: #142850;
+}
+#contact-us{
+    color: #142850;
+}
+#img-holder{
+    width: 100%;
+    height: 230px;
+}
