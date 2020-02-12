@@ -59,4 +59,21 @@ body{
 .magic:hover{
     color: rebeccapurple;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+    
+
+}
+.flex-item{
+    width: 100px;
+    height: 50px;
+    background: steelblue;
+    color: white;
+    margin: 3px;
+    flex: 1 1 100px;
+}
 
