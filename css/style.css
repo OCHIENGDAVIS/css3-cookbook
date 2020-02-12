@@ -8,6 +8,7 @@
 /* selectors */
 body{
     background: linear-gradient(rgb(204, 229, 255), rgba(204, 229, 255, 0.2));
+    font-size:0.9em;
 }
 .title{
     color: rgb(186, 133, 9);
