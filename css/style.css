@@ -6,42 +6,18 @@
 #00a8cc */
 
 /* selectors */
-h2{
-    color: green;
+body{
+    background: rgb(204, 229, 255);
 }
-.contact-us{
-    color: teal;
+.title{
+    color: rgb(186, 133, 9);
 }
-
-/* psuedoselectors  => when something is done on the website*/
-
-h2:hover{
-    color: red;
-    
-
+.subtitle{
+    color: rgb(186, 133, 9);
 }
-ul li:last-child{
-    color: white;
-}
-ul > li:only-child{
-    color: red;
-}
-h2 + a{
-    font-size: 2em;
-}
-textarea ~ button{
-    color: chartreuse;
-}
-ul > li{
-    font-size: 2em;
-}
-ul li {
-    font-size: em;
-}
-h2[class=title]{
-    color: red;
-}
-img[src*="./img/"]{
-    border: 3px solid black;
-    border-radius: 5px;
+.service-img{
+    width: 50%;
+    height: 300px;
+    background: url("../img/back1.jpg") ;
+    background-size: contain ;
 }
