@@ -31,6 +31,8 @@ body{
     background: steelblue ;
     background: radial-gradient( blue, steelblue);
     border: 2px double black;
+
+
     
 }
 .link{
@@ -46,4 +48,15 @@ body{
     width: 60%;
     border: 1px solid black;
     margin: 20px;
+    float: right;
 }
+.site-table{
+    display: inline-block;
+}
+.magic{
+    font-size: 2em;
+}
+.magic:hover{
+    color: rebeccapurple;
+}
+
