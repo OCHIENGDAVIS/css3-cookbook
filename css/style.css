@@ -4,16 +4,44 @@
 #27496d
 #0c7b93
 #00a8cc */
-.title{
-    color: #142850;
+
+/* selectors */
+h2{
+    color: green;
 }
-.subtitle{
-    color: #142850;
+.contact-us{
+    color: teal;
 }
-#contact-us{
-    color: #142850;
+
+/* psuedoselectors  => when something is done on the website*/
+
+h2:hover{
+    color: red;
+    
+
 }
-#img-holder{
-    width: 100%;
-    height: 230px;
+ul li:last-child{
+    color: white;
+}
+ul > li:only-child{
+    color: red;
+}
+h2 + a{
+    font-size: 2em;
+}
+textarea ~ button{
+    color: chartreuse;
+}
+ul > li{
+    font-size: 2em;
+}
+ul li {
+    font-size: em;
+}
+h2[class=title]{
+    color: red;
+}
+img[src*="./img/"]{
+    border: 3px solid black;
+    border-radius: 5px;
 }
