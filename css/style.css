@@ -7,7 +7,7 @@
 
 /* selectors */
 body{
-    background: rgb(204, 229, 255);
+    background: rgba(204, 229, 255, 0.2);
 }
 .title{
     color: rgb(186, 133, 9);
