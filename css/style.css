@@ -9,18 +9,41 @@
 body{
     background: linear-gradient(rgb(204, 229, 255), rgba(204, 229, 255, 0.2));
     font-size:0.9em;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 500;
+    font-family:  sans-serif;
+
 }
 .title{
     color: rgb(186, 133, 9);
+    font-weight: 500;
+    font-style: oblique;
 }
 .subtitle{
     color: rgb(186, 133, 9);
+    font-style: oblique;
 }
 .service-img{
     color: white;
     width: 50%;
     height: 300px;
     background: steelblue ;
-    background-size: contain ;
     background: radial-gradient( blue, steelblue);
+    border: 2px double black;
+    
+}
+.link{
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+}
+.link:hover{
+    color: blue;
+}
+#about-me-img{
+    height: 250px;
+    width: 60%;
+    border: 1px solid black;
+    margin: 20px;
 }
